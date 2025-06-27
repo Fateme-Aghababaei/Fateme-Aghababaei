@@ -51,7 +51,7 @@ Hi! I'm Fateme — a passionate UI/UX designer and frontend developer with a bac
 ### 🗺️ Contribution Heatmap
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Fateme-Aghababaei&theme=react-dark" alt="Contribution Graph" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Fateme-Aghababaei&theme=transparent" alt="Contribution Graph" />
 </p>
 
 ---
