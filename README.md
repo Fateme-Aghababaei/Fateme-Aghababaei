@@ -57,9 +57,22 @@ Hi! I'm Fateme — a passionate UI/UX designer and frontend developer with a bac
 ---
 
 ### 📫 Let's Connect
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/fateme-aghababaei2002/)
-[![Telegram](https://img.shields.io/badge/-Instagram-E4405F?style=flat&logo=instagram&logoColor=white)](https://t.me/ftm_a_q)
-<!--[![Personal Website](https://img.shields.io/badge/-Website-000?style=flat&logo=dev.to)](https://yourwebsite.com)-->
+
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/fateme-aghababaei2002/" target="_blank">
+    <img src="https://img.shields.io/badge/-LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white" />
+  </a>
+  <a href="mailto:faghababaei81@gmail.com">
+    <img src="https://img.shields.io/badge/-Email-D14836?style=flat&logo=gmail&logoColor=white" />
+  </a>
+  <a href="https://t.me/ftm_a_q" target="_blank">
+    <img src="https://img.shields.io/badge/-Telegram-2CA5E0?style=flat&logo=telegram&logoColor=white" />
+  </a>
+  <a href="https://fateme-aghababaei.framer.website/" target="_blank">
+    <img src="https://img.shields.io/badge/-Portfolio-000000?style=flat&logo=internet-explorer&logoColor=white" />
+  </a>
+</p>
 
 <!--
 **Fateme-Aghababaei/Fateme-Aghababaei** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
