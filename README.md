@@ -24,8 +24,8 @@ Hi! I'm Fateme — a passionate UI/UX designer and frontend developer with a bac
 ### 🛠️ Tech Stack
 
 #### 🎨 Design & Prototyping
-![Figma](https://img.shields.io/badge/Figma-F24E1E?style=flat&logo=figma&logoColor=white)
-![Adobe XD](https://img.shields.io/badge/AdobeXD-FF61F6?style=flat&logo=adobexd&logoColor=white)
+![Figma](https://img.shields.io/badge/Figma-F24E1E?style=plastic&logo=figma&logoColor=white)
+![Adobe XD](https://img.shields.io/badge/AdobeXD-FF61F6?style=plastic&logo=adobexd&logoColor=white)
 
 #### 💻 Frontend Development
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)
