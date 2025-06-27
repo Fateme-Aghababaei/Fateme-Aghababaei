@@ -1,24 +1,44 @@
-<h1 align="center">Hi there, I'm Fateme 👋</h1>
+<h1 align="center">👋 Hi, I'm Fateme</h1>
+
 <p align="center">
-  🎨 UI/UX Designer | 💻 Frontend Developer | 🌍 Based in Isfahan, Iran
+  🎨 UI/UX Designer • 💻 Frontend Developer • 🌍 Based in Isfahan, Iran
+</p>
+
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&duration=2500&pause=1000&center=true&vCenter=true&width=435&lines=Designing+beautiful+interfaces;Crafting+clean+React+code;Loving+Figma+%26+Tailwind" alt="Typing SVG" />
 </p>
 
 ---
 
-### 🌱 About Me
-- 🔭 I’m currently working on a smart parenting assistant app
-- 🌱 Learning more about **React**, **TailwindCSS**, and **UX research**
-- 💬 Ask me about UI design, usability testing, and clean frontend architecture
+### 💡 About Me
+
+Hi! I'm Fateme — a passionate UI/UX designer and frontend developer with a background in Computer Engineering. I love turning ideas into clean, user-centered interfaces that feel as good as they look.
+
+- 🎓 Bachelor’s in Computer Engineering, University of Isfahan
+- 💼 Experienced with React, TailwindCSS, and responsive design
+- 🎨 Obsessed with Figma, design systems, and microinteractions
+- 🧠 Always learning — from UX research to modern frontend workflows
 
 ---
 
 ### 🛠️ Tech Stack
-![HTML](https://img.shields.io/badge/-HTML5-E34F26?style=flat&logo=html5&logoColor=white)
-![CSS](https://img.shields.io/badge/-CSS3-1572B6?style=flat&logo=css3)
-![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
-![React](https://img.shields.io/badge/-React-61DAFB?style=flat&logo=react)
-![TailwindCSS](https://img.shields.io/badge/-Tailwind-38B2AC?style=flat&logo=tailwind-css)
-![Figma](https://img.shields.io/badge/-Figma-F24E1E?style=flat&logo=figma)
+
+#### 🎨 Design & Prototyping
+![Figma](https://img.shields.io/badge/Figma-F24E1E?style=flat&logo=figma&logoColor=white)
+![Adobe XD](https://img.shields.io/badge/AdobeXD-FF61F6?style=flat&logo=adobexd&logoColor=white)
+
+#### 💻 Frontend Development
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
+![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react)
+![TailwindCSS](https://img.shields.io/badge/TailwindCSS-38B2AC?style=flat&logo=tailwind-css)
+
+#### 🛠️ Dev Tools
+![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github)
+![VS Code](https://img.shields.io/badge/VSCode-007ACC?style=flat&logo=visual-studio-code&logoColor=white)
 
 ---
 
