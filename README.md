@@ -46,8 +46,8 @@ Hi! I'm Fateme — a passionate UI/UX designer and frontend developer with a bac
 ### 📊 GitHub Stats
 
 <p align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Fateme-Aghababaei&show_icons=true&theme=transparent&hide_title=false&hide_border=true" />
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Fateme-Aghababaei&layout=compact&theme=transparent&hide_title=false&hide_border=true" />
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Fateme-Aghababaei&layout=compact&show_icons=true&theme=transparent&hide_title=false&hide_border=true" />
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Fateme-Aghababaei&layout=compact&theme=transparent&hide_title=false&hide_border=true&langs_count=6" />
 </p>
 
 <p align="center">
