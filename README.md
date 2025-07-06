@@ -58,6 +58,12 @@ Hi! I'm Fateme — a passionate UI/UX designer and frontend developer with a bac
     </tr>
   </table>
 
+  <style>
+td, th {
+   border: none!important;
+}
+</style>
+
 </div>
 
 <p align="center">
