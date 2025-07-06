@@ -48,11 +48,11 @@ Hi! I'm Fateme — a passionate UI/UX designer and frontend developer with a bac
 <div align="center">
 
   <table style="border-collapse: collapse; border: none;">
-    <tr style="border: none;>
-      <td style="border: none;>
+    <tr style="border: none;">
+      <td style="border: none;">
         <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Fateme-Aghababaei&show_icons=true&theme=transparent&hide_title=false&hide_border=true&include_all_commits=true&count_private=true&line_height=25&card_width=400" />
       </td>
-      <td style="border: none;>
+      <td style="border: none;">
         <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Fateme-Aghababaei&layout=compact&theme=transparent&hide_title=false&hide_border=true&langs_count=6&card_width=400" />
       </td>
     </tr>
