@@ -45,20 +45,11 @@ Hi! I'm Fateme — a passionate UI/UX designer and frontend developer with a bac
 
 ### 📊 GitHub Stats
 
-<div align="center">
-
-  <table style="border-collapse: collapse; border: none;">
-    <tr style="border: none;">
-      <td style="border: none;">
-        <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Fateme-Aghababaei&show_icons=true&theme=transparent&hide_title=false&hide_border=true&include_all_commits=true&count_private=true&line_height=25&card_width=400" />
-      </td>
-      <td style="border: none;">
-        <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Fateme-Aghababaei&layout=compact&theme=transparent&hide_title=false&hide_border=true&langs_count=6&card_width=400" />
-      </td>
-    </tr>
-  </table>
-
-</div>
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Fateme-Aghababaei&show_icons=true&theme=dark&hide_title=false&count_private=true&hide=stars" height="110" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Fateme-Aghababaei&layout=compact&theme=dark&hide_title=false" height="110" />
+  <img src="https://streak-stats.demolab.com?user=Fateme-Aghababaei&theme=dark" height="110" />
+</p>
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=Fateme-Aghababaei&label=Profile+views&color=blue&style=flat" alt="Profile Views" />
