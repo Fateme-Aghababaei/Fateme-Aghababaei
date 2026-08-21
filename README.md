@@ -74,7 +74,7 @@ Coming soon...
   <a href="https://t.me/ftm_a_q" target="_blank">
     <img src="https://img.shields.io/badge/-Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" />
   </a>
-  <a href="https://fateme-aghababaei.framer.website/" target="_blank">
+  <a href="[https://fateme-aghababaei.framer.website/](https://fateme-aghababaei.ir/)" target="_blank">
     <img src="https://img.shields.io/badge/-Portfolio-000000?style=for-the-badge&logo=internet-explorer&logoColor=white" />
   </a>
 </p>
