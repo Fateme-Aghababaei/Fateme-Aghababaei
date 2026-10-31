@@ -10,6 +10,6 @@
   <defs><linearGradient id="f" gradientUnits="userSpaceOnUse" x1="149" x2="894"><stop offset="0" stop-color="#4ADE80" stop-opacity=".7"/><stop offset="1" stop-color="#4ADE80" stop-opacity="0"/></linearGradient></defs>
   <text class="mono in" x="6" y="25" font-size="13" fill="#4ADE80">03</text>
   <text class="mono in" x="40" y="25" font-size="13" letter-spacing="2.5" fill="#8C857B">—</text>
-  <text class="mono in" x="70" y="25" font-size="13" letter-spacing="2.5" fill="#F4EFE7">SAY HI</text>
+  <text class="mono in" x="70" y="25" font-size="13" letter-spacing="2.5" fill="#E6DFD4">SAY HI</text>
   <line class="line" x1="149" y1="21" x2="894" y2="21" stroke="url(#f)" stroke-width="1.5"/>
 </svg>
