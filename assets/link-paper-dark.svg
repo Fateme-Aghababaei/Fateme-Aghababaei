@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 471 40" width="471" height="40" role="img" aria-label="+ a paper on mutation testing with gpt-4 · ieee 2025">
+  <style>
+    .sans { font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; }
+    .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; }
+    .in { animation: in .6s ease-out backwards; }
+    @keyframes in { from { opacity: 0; transform: translateY(6px); } }
+    .arrow { animation: nudge 2.8s ease-in-out infinite; }
+    @keyframes nudge { 0%,60%,100% { transform: translate(0,0); } 75% { transform: translate(2px,-2px); } }
+  </style>
+  <rect x="2" y="2" width="467.0" height="36" rx="18.0" fill="#13110F" stroke="#2C2722" stroke-width="1.5"/>
+  <circle cx="20" cy="20.0" r="4" fill="#9B8FEC"/>
+  <text class="mono" x="32" y="24.5" font-size="13" fill="#F4EFE7">+ a paper on mutation testing with gpt-4 · ieee 2025</text>
+  <text class="mono arrow" x="445.0" y="24.5" font-size="13" fill="#8C857B">↗</text>
+</svg>
