@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 190" width="440" height="190" role="img" aria-label="Memento: vocab flashcards with ai definitions and spaced-repetition reviews">
+  <style>
+    .sans { font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; }
+    .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; }
+    .glow { animation: drift 12s ease-in-out infinite alternate; }
+    @keyframes drift { from { transform: translate(0,0); } to { transform: translate(-40px,24px); } }
+    .arrow { animation: nudge 2.8s ease-in-out infinite; }
+    @keyframes nudge { 0%,60%,100% { transform: translate(0,0); } 75% { transform: translate(3px,-3px); } }
+  </style>
+  <defs>
+    <clipPath id="c"><rect x="1" y="1" width="438" height="188" rx="18"/></clipPath>
+    <radialGradient id="g"><stop offset="0" stop-color="#9B8FEC" stop-opacity=".28"/><stop offset="1" stop-color="#9B8FEC" stop-opacity="0"/></radialGradient>
+    <pattern id="p" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="#1C1915" fill-opacity=".07"/></pattern>
+  </defs>
+  <g clip-path="url(#c)">
+    <rect width="440" height="190" fill="#FBF8F3"/>
+    <rect width="440" height="190" fill="url(#p)"/>
+    <circle class="glow" cx="400" cy="20" r="150" fill="url(#g)"/>
+  </g>
+  <rect x="1" y="1" width="438" height="188" rx="18" fill="none" stroke="#E7E0D5" stroke-width="1.5"/>
+  <circle cx="32" cy="34" r="5" fill="#9B8FEC"/>
+  <text class="mono" x="46" y="38" font-size="11" letter-spacing="1.5" fill="#8C857B">WEB APP · 2026</text>
+  <g class="arrow"><text class="sans" x="404" y="42" font-size="20" fill="#8C857B">↗</text></g>
+  <text class="sans" x="28" y="84" font-size="28" font-weight="700" letter-spacing="-.8" fill="#1C1915">Memento</text>
+  <text class="sans" x="28" y="114" font-size="14" fill="#4F4942">vocab flashcards with ai definitions</text>
+  <text class="sans" x="28" y="134" font-size="14" fill="#4F4942">and spaced-repetition reviews</text>
+  <text class="mono" x="28" y="166" font-size="11" letter-spacing="1" fill="#6D5FD3">vue · ts · pinia · primevue</text>
+</svg>
