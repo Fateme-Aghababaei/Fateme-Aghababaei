@@ -7,6 +7,6 @@
     .hl { animation: grow 1s .3s cubic-bezier(.2,.7,.2,1) backwards; transform-box: fill-box; transform-origin: left; }
     @keyframes grow { from { transform: scaleX(0); } }
   </style>
-  <text class="sans in" x="6" y="42" font-size="24" font-weight="500" letter-spacing="-.4" fill="#1C1915">hey! i draw interfaces in <tspan fill="#6D5FD3" font-weight="700">figma</tspan>, then build them in <tspan fill="#A8741F" font-weight="700">vue + typescript</tspan>.</text>
+  <text class="sans in" x="6" y="42" font-size="24" font-weight="500" letter-spacing="-.4" fill="#1C1915">hey! I draw interfaces in <tspan fill="#6D5FD3" font-weight="700">figma</tspan>, then build them in <tspan fill="#A8741F" font-weight="700">vue + typescript</tspan>.</text>
   <text class="sans in" x="6" y="80" font-size="17" fill="#4F4942" style="animation-delay:.2s">by day: dashboards &amp; a design system for a zero trust platform at <tspan fill="#1C1915" font-weight="600">payampardaz</tspan>.</text>
 </svg>
