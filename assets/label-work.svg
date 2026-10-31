@@ -7,9 +7,9 @@
     .line { stroke-dasharray: 900; animation: draw 1.4s .2s ease-out backwards; }
     @keyframes draw { from { stroke-dashoffset: 900; } }
   </style>
-  <defs><linearGradient id="f" gradientUnits="userSpaceOnUse" x1="253" x2="894"><stop offset="0" stop-color="#6D5FD3" stop-opacity=".7"/><stop offset="1" stop-color="#6D5FD3" stop-opacity="0"/></linearGradient></defs>
-  <text class="mono in" x="6" y="25" font-size="13" fill="#6D5FD3">01</text>
+  <defs><linearGradient id="f" gradientUnits="userSpaceOnUse" x1="253" x2="894"><stop offset="0" stop-color="#9B8FEC" stop-opacity=".7"/><stop offset="1" stop-color="#9B8FEC" stop-opacity="0"/></linearGradient></defs>
+  <text class="mono in" x="6" y="25" font-size="13" fill="#9B8FEC">01</text>
   <text class="mono in" x="40" y="25" font-size="13" letter-spacing="2.5" fill="#8C857B">—</text>
-  <text class="mono in" x="70" y="25" font-size="13" letter-spacing="2.5" fill="#1C1915">THINGS I'VE MADE</text>
+  <text class="mono in" x="70" y="25" font-size="13" letter-spacing="2.5" fill="#8C857B">THINGS I'VE MADE</text>
   <line class="line" x1="253" y1="21" x2="894" y2="21" stroke="url(#f)" stroke-width="1.5"/>
 </svg>
