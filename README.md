@@ -1,80 +1,104 @@
-<h1 align="center">👋 Hi, I'm Fateme</h1>
+<a href="https://fateme-aghababaei.ir">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/header-dark.svg">
+    <img alt="Fateme Aghababaei — Front-End Developer & UI/UX Designer, Isfahan, Iran. Open to freelance." src="./assets/header-light.svg" width="100%">
+  </picture>
+</a>
+
+<br>
+
+I design interfaces and then build them. Right now that means the admin panel of an enterprise **Zero Trust** security platform at [PayamPardaz](https://payampardaz.com): dashboards, live user monitoring, and components for **Kaman**, our internal design system. Figma first, then Vue + TypeScript, then Playwright to keep it honest.
+
+<sub>Open to freelance work where I get to shape the design _and_ write the code → [say hi](mailto:faghababaei81@gmail.com)</sub>
+
+<br>
+
+## Selected work
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://memento-words.ir"><img src="https://fateme-aghababaei.ir/projects/memento-cover.webp" alt="Memento screenshot" width="100%"></a>
+      <h3><a href="https://memento-words.ir">Memento</a> <sub><sup>WEB APP · 2026</sup></sub></h3>
+      Save new English words, let Gemini write definitions and examples, then review them with spaced-repetition flashcards.
+      <br><br>
+      <sub><code>Vue</code> <code>TypeScript</code> <code>Pinia</code> <code>PrimeVue</code> · <a href="https://github.com/Fateme-Aghababaei/vocab-app">source ↗</a></sub>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/Fateme-Aghababaei/konj-newtab-extension"><img src="https://fateme-aghababaei.ir/projects/konj-cover.webp" alt="Konj screenshot" width="100%"></a>
+      <h3><a href="https://github.com/Fateme-Aghababaei/konj-newtab-extension">Konj</a> <sub><sup>BROWSER EXTENSION · 2026</sup></sub></h3>
+      A Persian-first new tab: Solar Hijri calendar, Hafez, tasks and notes in widgets you can drag, resize and rearrange. RTL and LTR.
+      <br><br>
+      <sub><code>Vue</code> <code>TypeScript</code> <code>Vue I18n</code> <code>Vite</code> · <a href="https://github.com/Fateme-Aghababaei/konj-newtab-extension">source ↗</a></sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://adaksafarasia.ir/"><img src="https://fateme-aghababaei.ir/projects/adaksafar-cover.webp" alt="Adak Safar Asia screenshot" width="100%"></a>
+      <h3><a href="https://adaksafarasia.ir/">Adak Safar Asia</a> <sub><sup>CLIENT SITE · 2026</sup></sub></h3>
+      Landing page for a corporate bus-fleet company, shaped together with the client from content strategy to code.
+      <br><br>
+      <sub><code>HTML</code> <code>Tailwind</code> <code>JavaScript</code> · <a href="https://github.com/Fateme-Aghababaei/Adak-Safar-Asia-Landing-Page">source ↗</a></sub>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://fateme-aghababaei.ir"><img src="https://fateme-aghababaei.ir/projects/portfolio-cover.webp" alt="Portfolio screenshot" width="100%"></a>
+      <h3><a href="https://fateme-aghababaei.ir">Portfolio</a> <sub><sup>WEBSITE · 2026</sup></sub></h3>
+      My personal site, designed as I built it rather than from a mockup, and animated with GSAP.
+      <br><br>
+      <sub><code>Vue</code> <code>TypeScript</code> <code>GSAP</code> · <a href="https://github.com/Fateme-Aghababaei/portfolio">source ↗</a></sub>
+    </td>
+  </tr>
+</table>
+
+<br>
+
+## Toolbox
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=vue,ts,js,react,tailwind,html,css,figma,graphql,cypress,jest,vite,git,gitlab&perline=14&theme=dark">
+  <img alt="Vue, TypeScript, JavaScript, React, Tailwind, HTML, CSS, Figma, GraphQL, Cypress, Jest, Vite, Git, GitLab" src="https://skillicons.dev/icons?i=vue,ts,js,react,tailwind,html,css,figma,graphql,cypress,jest,vite,git,gitlab&perline=14&theme=light">
+</picture>
+
+<sub>Also: Pinia · Vue Router · Playwright · design systems · WCAG accessibility · REST</sub>
+
+<br>
+
+<details>
+<summary><b>Experience</b> &nbsp;<sub>3 roles · click to expand</sub></summary>
+<br>
+
+| | |
+|:--|:--|
+| **PayamPardaz** <br><sub>Jun 2025 – now</sub> | Front-End Developer & UI/UX Designer. Admin panel for a Zero Trust security platform: user overview dashboard with interactive charts and live online/offline monitoring, components for the Kaman design system. |
+| **Quera** <br><sub>Jun 2024 – Feb 2025</sub> | Front-End Mentor & Course Designer. Designed courses on HTML & CSS, React, advanced JavaScript and TypeScript, and mentored students through them. |
+| **IRISA** <br><sub>Summer 2023</sub> | UI/UX Design Intern. Designed a mobile app for buying and selling books, from user research to tested prototype. |
+
+</details>
+
+<details>
+<summary><b>Research & certificates</b></summary>
+<br>
+
+📄 [**Advanced Mutation Testing with Zero and Few-Shot Evaluation Using GPT-V4**](https://ieeexplore.ieee.org/document/11297643) <sub>· IEEE · 2025</sub>
+
+[Meta Front-End Developer](https://www.coursera.org/account/accomplishments/professional-cert/2W2GW86M55UN) · [Google UX Design](https://www.coursera.org/account/accomplishments/professional-cert/GRC9B7FQ4TMF) · [Quera: React](https://quera.org/certificate/J6t9IJu6/) · [TypeScript](https://quera.org/certificate/xEssMbzF/) · [Front-End](https://quera.org/certificate/IDHowlR8/) · [SEO](https://quera.org/certificate/rm1XlQTa/)
+
+</details>
+
+<details>
+<summary><b>Earlier projects</b></summary>
+<br>
+
+- [**Order Me**](https://github.com/Fateme-Aghababaei/OrderMe) — food ordering app in plain HTML, CSS and JS. Taught me how much structure a codebase needs before it gets big.
+- [**Weather App**](https://fateme-aghababaei.github.io/Weather-app/) — small React app for forecasts and API-driven state.
+
+</details>
+
+<br>
 
 <p align="center">
-  🎨 UI/UX Designer • 💻 Frontend Developer • 🌍 Based in Isfahan, Iran
-</p>
-
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&duration=2500&pause=1000&center=true&vCenter=true&width=435&lines=Designing+beautiful+interfaces;Crafting+clean+React+code;Loving+Figma+%26+Tailwind" alt="Typing SVG" />
-</p>
-
----
-
-### 💡 About Me
-
-Hi! I'm Fateme — a passionate UI/UX designer and frontend developer with a background in Computer Engineering. I love turning ideas into clean, user-centered interfaces that feel as good as they look.
-
-- 🎓 Bachelor’s in Computer Engineering, University of Isfahan  
-- 💼 Experienced with React, TailwindCSS, and responsive design  
-- 🎨 Obsessed with Figma, design systems, and microinteractions  
-- 🧠 Always learning — from UX research to modern frontend workflows  
-
----
-
-### 🛠️ Tech Stack
-
-#### 🎨 Design & Prototyping  
-![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
-![Adobe XD](https://img.shields.io/badge/AdobeXD-FF61F6?style=for-the-badge&logo=adobexd&logoColor=white)
-
-#### 💻 Frontend Development  
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-2F74C0?style=for-the-badge&logo=typescript&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Vue.js](https://img.shields.io/badge/Vue.js-41B883?style=for-the-badge&logo=vue.js&logoColor=white)
-![TailwindCSS](https://img.shields.io/badge/TailwindCSS-06B6D4?style=for-the-badge&logo=tailwind-css&logoColor=white)
-
-#### 🛠️ Dev Tools  
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
-![VS Code](https://img.shields.io/badge/VSCode-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
-
----
-
-### 📊 GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Fateme-Aghababaei&show_icons=true&theme=dark&hide_title=false&count_private=true&hide=stars" height="110" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Fateme-Aghababaei&layout=compact&theme=dark&hide_title=false" height="110" />
-</p>
-
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=Fateme-Aghababaei&label=Profile+views&color=blue&style=flat" alt="Profile Views" />
-</p>
-
-<!--
-### 🌟 Featured Projects
-
-Coming soon...
--->
-
----
-
-### 📫 Let's Connect
-
-<p align="center">
-  <a href="https://www.linkedin.com/in/fateme-aghababaei2002/" target="_blank">
-    <img src="https://img.shields.io/badge/-LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
-  </a>
-  <a href="mailto:faghababaei81@gmail.com">
-    <img src="https://img.shields.io/badge/-Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
-  </a>
-  <a href="https://t.me/ftm_a_q" target="_blank">
-    <img src="https://img.shields.io/badge/-Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" />
-  </a>
-  <a href="[https://fateme-aghababaei.framer.website/](https://fateme-aghababaei.ir/)" target="_blank">
-    <img src="https://img.shields.io/badge/-Portfolio-000000?style=for-the-badge&logo=internet-explorer&logoColor=white" />
-  </a>
+  <a href="https://fateme-aghababaei.ir">Portfolio</a> &nbsp;·&nbsp;
+  <a href="https://www.linkedin.com/in/fateme-aghababaei2002/">LinkedIn</a> &nbsp;·&nbsp;
+  <a href="https://t.me/ftm_a_q">Telegram</a> &nbsp;·&nbsp;
+  <a href="mailto:faghababaei81@gmail.com">Email</a>
 </p>
