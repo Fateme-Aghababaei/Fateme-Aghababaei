@@ -1,28 +1,32 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 190" width="440" height="190" role="img" aria-label="Portfolio: my own site, designed while building it, animated with gsap">
-  <style>
-    .sans { font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; }
-    .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; }
-    .glow { animation: drift 12s ease-in-out infinite alternate; }
-    @keyframes drift { from { transform: translate(0,0); } to { transform: translate(-40px,24px); } }
-    .arrow { animation: nudge 2.8s ease-in-out infinite; }
-    @keyframes nudge { 0%,60%,100% { transform: translate(0,0); } 75% { transform: translate(3px,-3px); } }
-  </style>
-  <defs>
-    <clipPath id="c"><rect x="1" y="1" width="438" height="188" rx="18"/></clipPath>
-    <radialGradient id="g"><stop offset="0" stop-color="#E8BF6A" stop-opacity=".30"/><stop offset="1" stop-color="#E8BF6A" stop-opacity="0"/></radialGradient>
-    <pattern id="p" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="#E6DFD4" fill-opacity=".06"/></pattern>
-  </defs>
-  <g clip-path="url(#c)">
-    <rect width="440" height="190" fill="#24211D"/>
-    <rect width="440" height="190" fill="url(#p)"/>
-    <circle class="glow" cx="400" cy="20" r="150" fill="url(#g)"/>
-  </g>
-  <rect x="1" y="1" width="438" height="188" rx="18" fill="none" stroke="#3B3631" stroke-width="1.5"/>
-  <circle cx="32" cy="34" r="5" fill="#E8BF6A"/>
-  <text class="mono" x="46" y="38" font-size="11" letter-spacing="1.5" fill="#8C857B">WEBSITE · 2026</text>
-  <g class="arrow"><text class="sans" x="404" y="42" font-size="20" fill="#8C857B">↗</text></g>
-  <text class="sans" x="28" y="84" font-size="28" font-weight="700" letter-spacing="-.8" fill="#E6DFD4">Portfolio</text>
-  <text class="sans" x="28" y="114" font-size="14" fill="#B3ACA1">my own site, designed while</text>
-  <text class="sans" x="28" y="134" font-size="14" fill="#B3ACA1">building it, animated with gsap</text>
-  <text class="mono" x="28" y="166" font-size="11" letter-spacing="1" fill="#E8BF6A">vue · ts · gsap</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="232" viewBox="0 0 440 232" role="img" aria-label="Portfolio — my own site, designed while building it, animated with GSAP. Vue, TypeScript, GSAP.">
+<title>Portfolio — my own site, designed while building it, animated with GSAP. Vue, TypeScript, GSAP.</title>
+<style>
+.sans{font-family:ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Helvetica, Arial, sans-serif} .mono{font-family:ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace}
+.ink{fill:#23201C} .mut{fill:#6E675E} .des{fill:#6D5CE0} .cod{fill:#A66F12} .liv{fill:#16A34A}
+.card{fill:#FFFFFF;stroke:#E4DED5} .soft{fill:#F6F3EE} .rule{stroke:#E4DED5} .grid{fill:#23201C;fill-opacity:.07}
+.desS{stroke:#6D5CE0} .codS{stroke:#A66F12} .mutS{stroke:#B9B1A6} .desF{fill:#6D5CE0} .codF{fill:#A66F12}
+.desT{fill:#6D5CE0;fill-opacity:.10} .codT{fill:#A66F12;fill-opacity:.10}
+@media (prefers-color-scheme: dark){
+ .ink{fill:#EDE6DA} .mut{fill:#9A9288} .des{fill:#A89BF2} .cod{fill:#D9A54A} .liv{fill:#4ADE80}
+ .card{fill:#1F1C19;stroke:#36322D} .soft{fill:#2A2622} .rule{stroke:#36322D} .grid{fill:#EDE6DA;fill-opacity:.06}
+ .desS{stroke:#A89BF2} .codS{stroke:#D9A54A} .mutS{stroke:#5A544C} .desF{fill:#A89BF2} .codF{fill:#D9A54A}
+ .desT{fill:#A89BF2;fill-opacity:.14} .codT{fill:#D9A54A;fill-opacity:.14}
+}
+.nudge{animation:nudge 2.8s ease-in-out infinite}
+@keyframes nudge{0%,60%,100%{transform:translate(0,0)}75%{transform:translate(3px,-3px)}}</style>
+<rect x="0.75" y="0.75" width="438.5" height="230.5" rx="18" class="card" stroke-width="1.5"/>
+<text x="28" y="40" class="mono des" font-size="11" letter-spacing="1.5">WEBSITE</text>
+<g transform="translate(28,56)">
+  <rect x="0" y="0" width="180" height="40" rx="8" class="soft"/>
+  <circle cx="148" cy="20" r="11" class="desT"/><circle cx="148" cy="20" r="5" class="desF"/>
+  <path d="M112 30 C 124 10, 134 34, 148 20" fill="none" class="desS" stroke-width="1.5" stroke-dasharray="3 3"/>
+  <rect x="12" y="11" width="54" height="5" rx="2.5" class="codF"/><rect x="12" y="22" width="76" height="4" rx="2" class="mutS" style="fill:none"/>
+  <rect x="12" y="22" width="70" height="4" rx="2" class="codF" opacity=".35"/>
+</g>
+<text x="28" y="132" class="sans ink" font-size="26" font-weight="700" letter-spacing="-.7">Portfolio</text>
+<text x="28" y="160" class="sans mut" font-size="13.5">my own site, designed while</text>
+<text x="28" y="179" class="sans mut" font-size="13.5">building it, animated with gsap.</text>
+<text x="28" y="210" class="mono cod" font-size="11.5" letter-spacing=".5">vue  ·  ts  ·  gsap</text>
+<g class="nudge"><text x="414" y="44" class="sans mut" font-size="19" text-anchor="end">↗</text></g>
+
 </svg>

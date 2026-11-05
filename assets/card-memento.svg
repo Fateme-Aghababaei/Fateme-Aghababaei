@@ -1,28 +1,66 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 190" width="440" height="190" role="img" aria-label="Memento: vocab flashcards with ai definitions and spaced-repetition reviews">
-  <style>
-    .sans { font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; }
-    .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; }
-    .glow { animation: drift 12s ease-in-out infinite alternate; }
-    @keyframes drift { from { transform: translate(0,0); } to { transform: translate(-40px,24px); } }
-    .arrow { animation: nudge 2.8s ease-in-out infinite; }
-    @keyframes nudge { 0%,60%,100% { transform: translate(0,0); } 75% { transform: translate(3px,-3px); } }
-  </style>
-  <defs>
-    <clipPath id="c"><rect x="1" y="1" width="438" height="188" rx="18"/></clipPath>
-    <radialGradient id="g"><stop offset="0" stop-color="#9B8FEC" stop-opacity=".30"/><stop offset="1" stop-color="#9B8FEC" stop-opacity="0"/></radialGradient>
-    <pattern id="p" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="#E6DFD4" fill-opacity=".06"/></pattern>
-  </defs>
-  <g clip-path="url(#c)">
-    <rect width="440" height="190" fill="#24211D"/>
-    <rect width="440" height="190" fill="url(#p)"/>
-    <circle class="glow" cx="400" cy="20" r="150" fill="url(#g)"/>
-  </g>
-  <rect x="1" y="1" width="438" height="188" rx="18" fill="none" stroke="#3B3631" stroke-width="1.5"/>
-  <circle cx="32" cy="34" r="5" fill="#9B8FEC"/>
-  <text class="mono" x="46" y="38" font-size="11" letter-spacing="1.5" fill="#8C857B">WEB APP · 2026</text>
-  <g class="arrow"><text class="sans" x="404" y="42" font-size="20" fill="#8C857B">↗</text></g>
-  <text class="sans" x="28" y="84" font-size="28" font-weight="700" letter-spacing="-.8" fill="#E6DFD4">Memento</text>
-  <text class="sans" x="28" y="114" font-size="14" fill="#B3ACA1">vocab flashcards with ai definitions</text>
-  <text class="sans" x="28" y="134" font-size="14" fill="#B3ACA1">and spaced-repetition reviews</text>
-  <text class="mono" x="28" y="166" font-size="11" letter-spacing="1" fill="#9B8FEC">vue · ts · pinia · primevue</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="250" viewBox="0 0 900 250" role="img" aria-label="Memento — vocab flashcards with AI definitions and spaced-repetition reviews. Vue, TypeScript, Pinia, PrimeVue.">
+<title>Memento — vocab flashcards with AI definitions and spaced-repetition reviews. Vue, TypeScript, Pinia, PrimeVue.</title>
+<style>
+.sans{font-family:ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Helvetica, Arial, sans-serif} .mono{font-family:ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace}
+.ink{fill:#23201C} .mut{fill:#6E675E} .des{fill:#6D5CE0} .cod{fill:#A66F12} .liv{fill:#16A34A}
+.card{fill:#FFFFFF;stroke:#E4DED5} .soft{fill:#F6F3EE} .rule{stroke:#E4DED5} .grid{fill:#23201C;fill-opacity:.07}
+.desS{stroke:#6D5CE0} .codS{stroke:#A66F12} .mutS{stroke:#B9B1A6} .desF{fill:#6D5CE0} .codF{fill:#A66F12}
+.desT{fill:#6D5CE0;fill-opacity:.10} .codT{fill:#A66F12;fill-opacity:.10}
+@media (prefers-color-scheme: dark){
+ .ink{fill:#EDE6DA} .mut{fill:#9A9288} .des{fill:#A89BF2} .cod{fill:#D9A54A} .liv{fill:#4ADE80}
+ .card{fill:#1F1C19;stroke:#36322D} .soft{fill:#2A2622} .rule{stroke:#36322D} .grid{fill:#EDE6DA;fill-opacity:.06}
+ .desS{stroke:#A89BF2} .codS{stroke:#D9A54A} .mutS{stroke:#5A544C} .desF{fill:#A89BF2} .codF{fill:#D9A54A}
+ .desT{fill:#A89BF2;fill-opacity:.14} .codT{fill:#D9A54A;fill-opacity:.14}
+}
+.nudge{animation:nudge 2.8s ease-in-out infinite}
+@keyframes nudge{0%,60%,100%{transform:translate(0,0)}75%{transform:translate(3px,-3px)}}
+.slot{transform-box:fill-box;transform-origin:center;animation-duration:3.2s;animation-iteration-count:infinite;animation-timing-function:cubic-bezier(.5,0,.25,1)}
+.sB{animation-name:b}.sM{animation-name:m}.sF{animation-name:f}
+@keyframes b{0%,72%{transform:translate(40px,-22px) rotate(6deg)}90%,100%{transform:translate(20px,-11px) rotate(-3deg)}}
+@keyframes m{0%,72%{transform:translate(20px,-11px) rotate(-3deg)}90%,100%{transform:translate(0,0) rotate(0)}}
+@keyframes f{0%,72%{transform:translate(0,0) rotate(0);opacity:1}90%{transform:translate(52px,-30px) rotate(9deg) scale(.9);opacity:0}100%{opacity:0}}
+.w{animation-duration:9.6s;animation-iteration-count:infinite;opacity:0}
+.w0{animation-name:w0}.w1{animation-name:w1}.w2{animation-name:w2}
+@keyframes w0{0%,33.2%{opacity:1}33.4%,100%{opacity:0}}
+@keyframes w1{0%,33.2%{opacity:0}33.4%,66.5%{opacity:1}66.7%,100%{opacity:0}}
+@keyframes w2{0%,66.5%{opacity:0}66.7%,100%{opacity:1}}
+.press{transform-box:fill-box;transform-origin:center;animation:press 3.2s infinite}
+@keyframes press{0%,58%,70%,100%{transform:scale(1)}63%{transform:scale(.88)}}
+</style>
+<rect x="0.75" y="0.75" width="898.5" height="248.5" rx="20" class="card" stroke-width="1.5"/>
+<text x="34" y="46" class="mono des" font-size="11.5" letter-spacing="1.5">FEATURED · WEB APP</text>
+<text x="34" y="96" class="sans ink" font-size="34" font-weight="700" letter-spacing="-1">Memento</text>
+<text x="34" y="128" class="sans mut" font-size="15">vocab flashcards with ai definitions</text>
+<text x="34" y="150" class="sans mut" font-size="15">and spaced-repetition reviews.</text>
+<text x="34" y="210" class="mono cod" font-size="12" letter-spacing=".5">vue  ·  ts  ·  pinia  ·  primevue</text>
+
+<!-- deck: the front card drops behind, the next one comes forward -->
+<g transform="translate(540,30)">
+  <g class="slot sB"><rect x="0" y="22" width="262" height="160" rx="14" class="card" stroke-width="1.5"/><g class="w w1"><text x="22" y="54" class="mono mut" font-size="10.5" letter-spacing="1.2">ADJ · C1</text>
+<text x="22" y="92" class="sans ink" font-size="26" font-weight="700" letter-spacing="-.5">ephemeral</text>
+<text x="22" y="114" class="sans mut" font-size="13">lasting a very short time</text></g><g class="w w2"><text x="22" y="54" class="mono mut" font-size="10.5" letter-spacing="1.2">NOUN · C2</text>
+<text x="22" y="92" class="sans ink" font-size="26" font-weight="700" letter-spacing="-.5">serendipity</text>
+<text x="22" y="114" class="sans mut" font-size="13">a happy, unplanned discovery</text></g><g class="w w0"><text x="22" y="54" class="mono mut" font-size="10.5" letter-spacing="1.2">ADJ · B2</text>
+<text x="22" y="92" class="sans ink" font-size="26" font-weight="700" letter-spacing="-.5">resilient</text>
+<text x="22" y="114" class="sans mut" font-size="13">quick to recover from setbacks</text></g><rect x="22" y="138" width="62" height="26" rx="13" class="soft"/><text x="53" y="155" class="sans mut" font-size="11.5" text-anchor="middle">again</text>
+<rect x="92" y="138" width="62" height="26" rx="13" class="soft"/><text x="123" y="155" class="sans mut" font-size="11.5" text-anchor="middle">good</text><rect x="162" y="138" width="62" height="26" rx="13" class="desF"/><text x="193" y="155" class="sans" font-size="11.5" fill="#fff" font-weight="600" text-anchor="middle">easy</text></g>
+  <g class="slot sM"><rect x="0" y="22" width="262" height="160" rx="14" class="card" stroke-width="1.5"/><g class="w w2"><text x="22" y="54" class="mono mut" font-size="10.5" letter-spacing="1.2">ADJ · C1</text>
+<text x="22" y="92" class="sans ink" font-size="26" font-weight="700" letter-spacing="-.5">ephemeral</text>
+<text x="22" y="114" class="sans mut" font-size="13">lasting a very short time</text></g><g class="w w0"><text x="22" y="54" class="mono mut" font-size="10.5" letter-spacing="1.2">NOUN · C2</text>
+<text x="22" y="92" class="sans ink" font-size="26" font-weight="700" letter-spacing="-.5">serendipity</text>
+<text x="22" y="114" class="sans mut" font-size="13">a happy, unplanned discovery</text></g><g class="w w1"><text x="22" y="54" class="mono mut" font-size="10.5" letter-spacing="1.2">ADJ · B2</text>
+<text x="22" y="92" class="sans ink" font-size="26" font-weight="700" letter-spacing="-.5">resilient</text>
+<text x="22" y="114" class="sans mut" font-size="13">quick to recover from setbacks</text></g><rect x="22" y="138" width="62" height="26" rx="13" class="soft"/><text x="53" y="155" class="sans mut" font-size="11.5" text-anchor="middle">again</text>
+<rect x="92" y="138" width="62" height="26" rx="13" class="soft"/><text x="123" y="155" class="sans mut" font-size="11.5" text-anchor="middle">good</text><rect x="162" y="138" width="62" height="26" rx="13" class="desF"/><text x="193" y="155" class="sans" font-size="11.5" fill="#fff" font-weight="600" text-anchor="middle">easy</text></g>
+  <g class="slot sF"><rect x="0" y="22" width="262" height="160" rx="14" class="card" stroke-width="1.5"/><g class="w w0"><text x="22" y="54" class="mono mut" font-size="10.5" letter-spacing="1.2">ADJ · C1</text>
+<text x="22" y="92" class="sans ink" font-size="26" font-weight="700" letter-spacing="-.5">ephemeral</text>
+<text x="22" y="114" class="sans mut" font-size="13">lasting a very short time</text></g><g class="w w1"><text x="22" y="54" class="mono mut" font-size="10.5" letter-spacing="1.2">NOUN · C2</text>
+<text x="22" y="92" class="sans ink" font-size="26" font-weight="700" letter-spacing="-.5">serendipity</text>
+<text x="22" y="114" class="sans mut" font-size="13">a happy, unplanned discovery</text></g><g class="w w2"><text x="22" y="54" class="mono mut" font-size="10.5" letter-spacing="1.2">ADJ · B2</text>
+<text x="22" y="92" class="sans ink" font-size="26" font-weight="700" letter-spacing="-.5">resilient</text>
+<text x="22" y="114" class="sans mut" font-size="13">quick to recover from setbacks</text></g><rect x="22" y="138" width="62" height="26" rx="13" class="soft"/><text x="53" y="155" class="sans mut" font-size="11.5" text-anchor="middle">again</text>
+<rect x="92" y="138" width="62" height="26" rx="13" class="soft"/><text x="123" y="155" class="sans mut" font-size="11.5" text-anchor="middle">good</text><g class="press"><rect x="162" y="138" width="62" height="26" rx="13" class="desF"/><text x="193" y="155" class="sans" font-size="11.5" fill="#fff" font-weight="600" text-anchor="middle">easy</text></g></g>
+</g>
+<g class="nudge"><text x="874" y="48" class="sans mut" font-size="19" text-anchor="end">↗</text></g>
+
 </svg>

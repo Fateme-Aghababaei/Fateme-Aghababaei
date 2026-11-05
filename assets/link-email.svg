@@ -1,14 +1,20 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 103 40" width="103" height="40" role="img" aria-label="email">
-  <style>
-    .sans { font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; }
-    .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; }
-    .in { animation: in .6s ease-out backwards; }
-    @keyframes in { from { opacity: 0; transform: translateY(6px); } }
-    .arrow { animation: nudge 2.8s ease-in-out infinite; }
-    @keyframes nudge { 0%,60%,100% { transform: translate(0,0); } 75% { transform: translate(2px,-2px); } }
-  </style>
-  <rect x="2" y="2" width="99.1" height="36" rx="18.0" fill="#24211D" stroke="#3B3631" stroke-width="1.5"/>
-  <circle cx="20" cy="20.0" r="4" fill="#4ADE80"/>
-  <text class="mono" x="32" y="24.5" font-size="13" fill="#E6DFD4">email</text>
-  <text class="mono arrow" x="77.1" y="24.5" font-size="13" fill="#8C857B">↗</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="264" height="42" viewBox="0 0 264 42" role="img" aria-label="faghababaei81@gmail.com">
+<title>faghababaei81@gmail.com</title>
+<style>
+.sans{font-family:ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Helvetica, Arial, sans-serif} .mono{font-family:ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace}
+.ink{fill:#23201C} .mut{fill:#6E675E} .des{fill:#6D5CE0} .cod{fill:#A66F12} .liv{fill:#16A34A}
+.card{fill:#FFFFFF;stroke:#E4DED5} .soft{fill:#F6F3EE} .rule{stroke:#E4DED5} .grid{fill:#23201C;fill-opacity:.07}
+.desS{stroke:#6D5CE0} .codS{stroke:#A66F12} .mutS{stroke:#B9B1A6} .desF{fill:#6D5CE0} .codF{fill:#A66F12}
+.desT{fill:#6D5CE0;fill-opacity:.10} .codT{fill:#A66F12;fill-opacity:.10}
+@media (prefers-color-scheme: dark){
+ .ink{fill:#EDE6DA} .mut{fill:#9A9288} .des{fill:#A89BF2} .cod{fill:#D9A54A} .liv{fill:#4ADE80}
+ .card{fill:#1F1C19;stroke:#36322D} .soft{fill:#2A2622} .rule{stroke:#36322D} .grid{fill:#EDE6DA;fill-opacity:.06}
+ .desS{stroke:#A89BF2} .codS{stroke:#D9A54A} .mutS{stroke:#5A544C} .desF{fill:#A89BF2} .codF{fill:#D9A54A}
+ .desT{fill:#A89BF2;fill-opacity:.14} .codT{fill:#D9A54A;fill-opacity:.14}
+}
+</style>
+<rect x="0.75" y="0.75" width="262.5" height="40.5" rx="20.25" class="card" stroke-width="1.5"/>
+<circle cx="22" cy="21" r="4.5" class="desF"/>
+<text x="36" y="26" class="mono ink" font-size="13.5">faghababaei81@gmail.com</text>
+<text x="246" y="26" class="sans mut" font-size="14" text-anchor="end">↗</text>
 </svg>

@@ -1,92 +1,53 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 280" width="900" height="280" role="img" aria-label="Fateme Aghababaei, Front-End Developer and UI/UX Designer">
-  <style>
-    .sans { font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; }
-    .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; }
-    .name { fill: #E6DFD4; font-size: 50px; font-weight: 700; letter-spacing: -1.5px; }
-    .role { fill: #B3ACA1; font-size: 16px; letter-spacing: 3px; }
-    .prompt { fill: #C8943A; font-size: 17px; }
-    .line { fill: #DCD5CA; font-size: 17px; opacity: 0; }
-    .meta { fill: #8C857B; font-size: 13px; }
-    .open { fill: #4ADE80; font-size: 13px; }
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="310" viewBox="0 0 900 310" role="img" aria-label="Fateme Aghababaei — front-end developer and UI/UX designer in Isfahan, Iran. Draws interfaces in Figma, builds them in Vue and TypeScript. Open to freelance.">
+<title>Fateme Aghababaei — front-end developer and UI/UX designer in Isfahan, Iran. Draws interfaces in Figma, builds them in Vue and TypeScript. Open to freelance.</title>
+<style>
+.sans{font-family:ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Helvetica, Arial, sans-serif} .mono{font-family:ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace}
+.ink{fill:#23201C} .mut{fill:#6E675E} .des{fill:#6D5CE0} .cod{fill:#A66F12} .liv{fill:#16A34A}
+.card{fill:#FFFFFF;stroke:#E4DED5} .soft{fill:#F6F3EE} .rule{stroke:#E4DED5} .grid{fill:#23201C;fill-opacity:.07}
+.desS{stroke:#6D5CE0} .codS{stroke:#A66F12} .mutS{stroke:#B9B1A6} .desF{fill:#6D5CE0} .codF{fill:#A66F12}
+.desT{fill:#6D5CE0;fill-opacity:.10} .codT{fill:#A66F12;fill-opacity:.10}
+@media (prefers-color-scheme: dark){
+ .ink{fill:#EDE6DA} .mut{fill:#9A9288} .des{fill:#A89BF2} .cod{fill:#D9A54A} .liv{fill:#4ADE80}
+ .card{fill:#1F1C19;stroke:#36322D} .soft{fill:#2A2622} .rule{stroke:#36322D} .grid{fill:#EDE6DA;fill-opacity:.06}
+ .desS{stroke:#A89BF2} .codS{stroke:#D9A54A} .mutS{stroke:#5A544C} .desF{fill:#A89BF2} .codF{fill:#D9A54A}
+ .desT{fill:#A89BF2;fill-opacity:.14} .codT{fill:#D9A54A;fill-opacity:.14}
+}
+.cursor{animation:travel 7s ease-in-out infinite}
+@keyframes travel{0%,12%{transform:translate(462px,120px)}45%,62%{transform:translate(790px,92px)}95%,100%{transform:translate(462px,120px)}}</style>
 
-    .l1 { animation: cycle 12s infinite 0s; }
-    .l2 { animation: cycle 12s infinite 4s; }
-    .l3 { animation: cycle 12s infinite 8s; }
-    @keyframes cycle {
-      0%   { opacity: 0; transform: translateY(8px); }
-      4%   { opacity: 1; transform: translateY(0); }
-      29%  { opacity: 1; transform: translateY(0); }
-      33%  { opacity: 0; transform: translateY(-8px); }
-      100% { opacity: 0; }
-    }
-    .cursor { fill: #C8943A; font-size: 17px; animation: blink 1s steps(1) infinite; }
-    @keyframes blink { 50% { opacity: 0; } }
+<defs><pattern id="dg" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="1.5" cy="1.5" r="1.1" class="grid"/></pattern></defs>
+<rect width="900" height="310" fill="url(#dg)"/>
 
-    .pulse { transform-origin: 664px 236px; animation: pulse 2.4s ease-out infinite; }
-    @keyframes pulse { 0% { transform: scale(1); opacity: .6; } 100% { transform: scale(3); opacity: 0; } }
+<!-- frame label, figma style -->
+<text x="2" y="44" class="sans des" font-size="12.5" font-weight="600"># hero.frame</text>
+<rect x="2" y="58" width="486" height="78" fill="none" class="desS" stroke-width="1.5"/>
+<rect x="-2" y="54" width="8" height="8" class="card desS" stroke-width="1.5" rx="1"/><rect x="484" y="54" width="8" height="8" class="card desS" stroke-width="1.5" rx="1"/><rect x="-2" y="132" width="8" height="8" class="card desS" stroke-width="1.5" rx="1"/><rect x="484" y="132" width="8" height="8" class="card desS" stroke-width="1.5" rx="1"/>
+<text x="18" y="114" class="sans ink" font-size="48" font-weight="700" letter-spacing="-1.6">Fateme Aghababaei</text>
+<!-- dimension badge -->
+<rect x="95.0" y="148" width="300" height="24" rx="5" class="desF"/>
+<text x="245.0" y="164" class="mono" font-size="11.5" text-anchor="middle" fill="#fff" letter-spacing=".5">front-end developer × ui/ux designer</text>
 
-    .orb { animation: drift 14s ease-in-out infinite alternate; }
-    .orb2 { animation: drift 18s ease-in-out infinite alternate-reverse; }
-    @keyframes drift { from { transform: translate(0,0); } to { transform: translate(-60px, 30px); } }
+<text x="2" y="222" class="sans ink" font-size="17">I draw interfaces in <tspan class="des" font-weight="600">figma</tspan>, then build them in <tspan class="cod" font-weight="600">vue + typescript</tspan>.</text>
+<text x="2" y="248" class="sans mut" font-size="14.5">by day: a zero trust design system at <tspan class="ink" font-weight="600">payampardaz</tspan>.</text>
 
-    .dot { animation: hop 3.2s ease-in-out infinite; }
-    .d2 { animation-delay: .2s; } .d3 { animation-delay: .4s; } .d4 { animation-delay: .6s; }
-    @keyframes hop { 0%, 70%, 100% { transform: translateY(0); } 80% { transform: translateY(-6px); } }
-  </style>
+<!-- code panel -->
+<rect x="540" y="36" width="358" height="214" rx="16" class="card" stroke-width="1.5"/>
+<rect x="556" y="52" width="84" height="26" rx="7" class="codT"/>
+<text x="598" y="69" class="mono cod" font-size="11.5" text-anchor="middle">Hero.vue</text>
+<line x1="540" y1="92" x2="898" y2="92" class="rule" stroke-width="1.5"/>
+<text x="562" y="126" class="mono mut" font-size="11" text-anchor="start" opacity=".55">1</text><text x="584" y="126" class="mono" font-size="13.5"><tspan class="mut">&lt;</tspan><tspan class="cod">template</tspan><tspan class="mut">&gt;</tspan></text><text x="562" y="151" class="mono mut" font-size="11" text-anchor="start" opacity=".55">2</text><text x="584" y="151" class="mono" font-size="13.5"><tspan class="mut">  &lt;</tspan><tspan class="ink">Design</tspan><tspan class="mut"> tool=</tspan><tspan class="des">"figma"</tspan><tspan class="mut"> /&gt;</tspan></text><text x="562" y="176" class="mono mut" font-size="11" text-anchor="start" opacity=".55">3</text><text x="584" y="176" class="mono" font-size="13.5"><tspan class="mut">  &lt;</tspan><tspan class="ink">Build</tspan><tspan class="mut"> with=</tspan><tspan class="cod">"vue + ts"</tspan><tspan class="mut"> /&gt;</tspan></text><text x="562" y="201" class="mono mut" font-size="11" text-anchor="start" opacity=".55">4</text><text x="584" y="201" class="mono" font-size="13.5"><tspan class="mut">  &lt;</tspan><tspan class="ink">Ship</tspan><tspan class="mut"> to=</tspan><tspan class="liv">"design-system"</tspan><tspan class="mut"> /&gt;</tspan></text><text x="562" y="226" class="mono mut" font-size="11" text-anchor="start" opacity=".55">5</text><text x="584" y="226" class="mono" font-size="13.5"><tspan class="mut">&lt;/</tspan><tspan class="cod">template</tspan><tspan class="mut">&gt;</tspan></text>
 
-  <defs>
-    <clipPath id="card"><rect x="1" y="1" width="898" height="278" rx="22"/></clipPath>
-    <radialGradient id="g1" cx="50%" cy="50%" r="50%">
-      <stop offset="0" stop-color="#9B8FEC" stop-opacity=".35"/>
-      <stop offset="1" stop-color="#9B8FEC" stop-opacity="0"/>
-    </radialGradient>
-    <radialGradient id="g2" cx="50%" cy="50%" r="50%">
-      <stop offset="0" stop-color="#C8943A" stop-opacity=".3"/>
-      <stop offset="1" stop-color="#C8943A" stop-opacity="0"/>
-    </radialGradient>
-    <linearGradient id="rule" x1="0" x2="1">
-      <stop offset="0" stop-color="#C8943A"/>
-      <stop offset=".35" stop-color="#E8BF6A"/>
-      <stop offset=".7" stop-color="#9B8FEC"/>
-      <stop offset="1" stop-color="#4ADE80"/>
-      <animate attributeName="x1" values="0;-1;0" dur="10s" repeatCount="indefinite"/>
-      <animate attributeName="x2" values="1;2;1" dur="10s" repeatCount="indefinite"/>
-    </linearGradient>
-    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
-      <circle cx="1" cy="1" r="1" fill="#E6DFD4" fill-opacity=".06"/>
-    </pattern>
-  </defs>
+<!-- multiplayer cursor travelling from design to code -->
+<g class="cursor">
+  <path d="M0 0 L0 17 L4.6 12.6 L8 20 L11 18.6 L7.7 11.4 L13.6 11.4 Z" class="desF" stroke="#fff" stroke-width="1.2" stroke-linejoin="round"/>
+  <rect x="12" y="18" width="58" height="20" rx="10" class="desF"/>
+  <text x="41" y="32" class="sans" font-size="11.5" font-weight="600" fill="#fff" text-anchor="middle">fateme</text>
+</g>
 
-  <g clip-path="url(#card)">
-    <rect width="900" height="280" fill="#24211D"/>
-    <rect width="900" height="280" fill="url(#grid)"/>
-    <circle class="orb" cx="760" cy="60" r="220" fill="url(#g1)"/>
-    <circle class="orb2" cx="860" cy="250" r="180" fill="url(#g2)"/>
-  </g>
-  <rect x="1" y="1" width="898" height="278" rx="22" fill="none" stroke="#3B3631" stroke-width="1.5"/>
+<!-- status -->
+<line x1="0" y1="280" x2="900" y2="280" class="rule" stroke-width="1.5"/>
+<circle cx="6" cy="302" r="4.5" class="liv"><animate attributeName="opacity" values="1;.35;1" dur="2s" repeatCount="indefinite"/></circle>
+<text x="18" y="306" class="mono liv" font-size="12">open to freelance</text>
+<text x="900" y="306" class="mono mut" font-size="12" text-anchor="end">isfahan, iran</text>
 
-  <!-- accent dots -->
-  <g transform="translate(56 52)">
-    <circle class="dot"    cx="0"  cy="0" r="5" fill="#C8943A"/>
-    <circle class="dot d2" cx="18" cy="0" r="5" fill="#E8BF6A"/>
-    <circle class="dot d3" cx="36" cy="0" r="5" fill="#9B8FEC"/>
-    <circle class="dot d4" cx="54" cy="0" r="5" fill="#4ADE80"/>
-  </g>
-
-  <text class="sans name" x="52" y="122">Fateme Aghababaei</text>
-  <text class="mono role" x="54" y="154">FRONT-END DEVELOPER · UI/UX DESIGNER</text>
-
-  <rect x="54" y="174" width="300" height="2" rx="1" fill="url(#rule)"/>
-
-  <text class="mono prompt" x="54" y="214">~/ $</text>
-  <g>
-    <text class="mono line l1" x="104" y="214">designing interfaces in Figma<tspan class="cursor" dx="6">▍</tspan></text>
-    <text class="mono line l2" x="104" y="214">building them with Vue + TypeScript<tspan class="cursor" dx="6">▍</tspan></text>
-    <text class="mono line l3" x="104" y="214">shipping components for design systems<tspan class="cursor" dx="6">▍</tspan></text>
-  </g>
-
-  <text class="mono meta" x="54" y="241">Isfahan, Iran</text>
-  <circle class="pulse" cx="664" cy="236" r="4" fill="#4ADE80"/>
-  <circle cx="664" cy="236" r="4" fill="#4ADE80"/>
-  <text class="mono open" x="676" y="241">open to freelance</text>
 </svg>
